@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .page1 {
+    background: url("netflix.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+  
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .main {
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    padding:0px;
+    margin-bottom:200px;
+   padding-right:10px; 
+   margin-right: 5px; 
+   
+  }
+  
+  .main img {
+    width:70px;
+    height:auto;
+    
+  }
+  
+  .button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+  }
+  
+  .select {
+    width: 120px;
+    height: 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+  
+  }
+ .navbar img{
+    height: 150px;
+    width: 250px;
+ }
+  .In {
+    
+    width: 70px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+  }
+  
+  .content {
+   
+    text-align: center;
+  
+  }
+  
+  .h1 {
+    font-size:40px;
+    font-weight: bold;
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-bottom:0px;
+    
+
+  }
+  
+  .h3 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom:0px;
+  }
+
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-top:80px;
+  }
+  
+  .Email {
+    width: 100%;
+    max-width:350px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom:50px;
+  }
+  
+  .Get {
+    width: 220px;
+    height: 52px;
+    background-color: red;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Get:hover {
+    background-color: darkred;
+  }
+  
+  .page2, .section, .section2, .section3 {
+    background-color: black;
+    display: flex;
+     flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+  }
+  
+  .page2 h1, .section h1, .section2 h1, .section3 h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .page2 h3, .section h3, .section2 h3, .section3 h3 {
+    margin-bottom: 20px;
+  }
+  
+  .option-item {
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    max-width: 900px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .option-item h2 {
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  @media (max-width: 780px) {
+    
+    
+    .In {
+    
+        width: 70px;
+        height: 32px;
+        border-radius: 4px;
+        background-color: red;
+        border: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+       
+      }
+    .main {
+        margin-top: 350px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    
+    }
+
+  
+    .h1 {
+      font-size: 24px;
+    }
+  
+    .Email {
+      max-width: 100%;
+    }
+  
+    .video-tv, .mobile-img, .device-img, .kid-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .page2, .section, .section2, .section3 {
+      padding: 20px 10px;
+    }
+  
+    .option-item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .Que {
+      padding-right: 0;
+    }
+  
+    .Get {
+      width: 100%;
+    }
+  }
+  .page3{
+    display: flex;
+    background-color: black;
+    color:white;
+ 
+  }
+  
+  .Save{
+       margin-top:20px;
+       font-size:25px;
+       font-family:Arial, Helvetica, sans-serif;
+  }
+  .mobile-img{
+      width:500px;
+  }
